@@ -1,0 +1,23 @@
+{
+  "name": "miniature-adventure",
+  "version": "1.0.0",
+  "description": "I like coding a lot :heart:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor0x16/miniature-adventure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victor0x16/miniature-adventure/issues"
+  },
+  "homepage": "https://github.com/victor0x16/miniature-adventure#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
