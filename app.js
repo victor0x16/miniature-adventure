@@ -17,12 +17,14 @@ app.get("/api/interactions", function (req, res) {
 });
 
 app.get("/terms-of-service", function (req, res) {
-  res.sendFile("./assets/index.html");
+ //  res.sendFile("./assets/index.html");
+ res.send("Read it carefully.");
 });
 
 
 app.get("/privacy-policy", function (req, res) {
-  res.sendFile("./assets/index.html");
+ //  res.sendFile("./assets/index.html");
+ res.send("My company is providing your safety");
 });
 
 app.listen(PORT, () => {
