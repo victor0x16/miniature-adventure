@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 
 
 // api
-app.get("/api/interactions", function (req, res) {
+app.post("/api/interactions", function (req, res) {
    res.send({ test: "you're in a test!" });
 });
 
